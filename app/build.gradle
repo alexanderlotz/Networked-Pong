@@ -101,8 +101,12 @@ task showReports {
     doLast {
         try {
             String fileDir = "file:///"+"$buildDir/reports/"
-            java.awt.Desktop.desktop.browse(((fileDir + "checkstyle/main.html").replace("\\","/").replace(" ", "%20")).toURI())
-            java.awt.Desktop.desktop.browse(((fileDir + "checkstyle/test.html").replace("\\","/").replace(" ", "%20")).toURI())
+            if ((new File("$buildDir/reports/checkstyle/main.html")).exists()) {
+                java.awt.Desktop.desktop.browse(((fileDir + "checkstyle/main.html").replace("\\", "/").replace(" ", "%20")).toURI())
+            }
+            if ((new File("$buildDir/reports/checkstyle/test.html")).exists()) {
+                java.awt.Desktop.desktop.browse(((fileDir + "checkstyle/test.html").replace("\\", "/").replace(" ", "%20")).toURI())
+            }
         } catch(URISyntaxException e) {
         }
     }

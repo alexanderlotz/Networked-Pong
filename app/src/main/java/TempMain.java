@@ -1,4 +1,4 @@
-import sample.Main;
+import pong.game.Main;
 
 /**
  * Solely exists to overcome Gradle JavaFX issues as described
@@ -13,7 +13,7 @@ public final class TempMain {
 
     }
     /**
-     * Helper to execute the actual JavaFX main in {@link sample.Main}.
+     * Helper to execute the actual JavaFX main in {@link Main}.
      * @param args Takes in command line arguments.
      */
     public static void main(final String[] args) {
