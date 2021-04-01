@@ -8,8 +8,7 @@
 - [Coding Rules](#coding-rules)
   - [Code Style](#code-style)
     - [Python](#python)
-    - [HTML/CSS](#htmlcss)
-    - [JavaScript](#javascript)
+    - [Java](#java)
 - [Commit Message Guidelines](#commit-message-guidelines)
   - [Commit Message Format](#commit-message-format)
   - [Revert](#revert)
@@ -22,14 +21,11 @@
 
 ## About
 
-This app is a submission for the [WinHacks 2021 competition](https://winhacks-2021.devpost.com/) as challenged by [Splice Digital](https://splicedigital.com/).
+This project exists to demonstrate use of the JavaFX framework and basic implementation of a Client/Server system.
 
 ### Our Team
 
 - [Alexander Lotz](https://github.com/alexanderlotz/)
-- [Emily Chu](https://github.com/emily-chu)
-- [Ryan Moon](https://github.com/rm00nkh)
-- [Sean Kyer](https://github.com/seankyer)
 
 ## Contribution Guidelines
 
@@ -110,13 +106,9 @@ This project adheres to the [Google Python style guide](https://google.github.io
 
 Linting is performed using [PyLint](https://google.github.io/styleguide/pylintrc) (Link starts a download).
 
-#### HTML/CSS
+#### Java
 
-This project adheres to the [Google HTML/CSS style guide](https://google.github.io/styleguide/htmlcssguide.html).
-
-#### JavaScript
-
-This project adheres to the [Google JavaScript style guide](https://google.github.io/styleguide/jsguide.html).
+This project uses a variant of the Sun Style guide and enforces this style through the use of checkstyle. Checkstyle will run automatically on project build and style and formatting errors can be viewed in browser using the command `./gradlew sR`.
 
 ## Commit Message Guidelines
 
@@ -186,8 +178,6 @@ The footer should contain any information about **Breaking Changes** and is also
 
 This project's completion is largely thanks to information gathered from publicly available resources including, but not limited to:
 
-- [Structured Patterns in Python](https://www.python.org/dev/peps/pep-0636/)
-- [Making Predictions with Sequences](https://machinelearningmastery.com/sequence-prediction/)
-- [Machine Learning - Linear Regression](https://www.w3schools.com/python/python_ml_linear_regression.asp)
-- [Next Word Prediction Model](https://thecleverprogrammer.com/2020/07/20/next-word-prediction-model/)
-- [Understanding Word N-grams in NLP](https://towardsdatascience.com/understanding-word-n-grams-and-n-gram-probability-in-natural-language-processing-9d9eef0fa058)
+- [Pong Game](https://www.ponggame.org/)
+- [JavaFX Tutorial](https://www.tutorialspoint.com/javafx/index.htm)
+- [A Guide to Java Sockets](https://www.baeldung.com/a-guide-to-java-sockets)
